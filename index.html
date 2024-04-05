@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Louis BLANLEUIL - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    .justifie {
+      text-align: justify;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <style>
+      .rounded-image {
+          border-radius: 30px; /* Vous pouvez ajuster la valeur pour modifier le degré d'arrondi */
+      }
+    </style>
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my_photo.png" alt="Louis Blanleuil" width="80" class="rounded-image">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Louis Blanleuil</h1>
+
+          <p class="title">Administrateur systèmes et réseaux</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:l.blanleuil0104@gmail.com" class="contact-link">l.blanleuil0104@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Téléphone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+33(0) 7 77 97 84 06</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Age</p>
+
+              <time datetime="2004-01-03">20 ans</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Localisation</p>
+
+              <address>Rennes, France</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/louis-blanleuil-a7b979238/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin" title="Louis BLANLEUIL"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Biographie</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>CV</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>E4</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>E5</button>
+          </li>
+
+          <!--<li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Me contacter</button>
+          </li>-->
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #BIOGRAPHIE
+      -->
+
+      <article class="biographie  active" data-page="biographie">
+
+        <header>
+          <h2 class="h2 article-title">A PROPOS DE MOI</h2>
+        </header>
+
+        <section class="about-text justifie">
+          <p>
+            Je suis étudiant en BTS Services Informatiques aux Organisations (SIO), option Solutions d'Infrastructure, Systèmes et Réseaux (SISR),
+            à Rennes, France. Je me passionne pour l'administration réseau et la sécurité informatique.
+            J'aspire à simplifier et sécuriser les systèmes d'information en développant 
+            des solutions techniques à la fois robustes et accessibles.
+          </p>
+
+          <p>
+            Actuellement en formation en alternance pour le BTS Services Informatiques aux Organisations, option Solutions d'Infrastructure, Systèmes et Réseaux (SISR), à Rennes, mon rôle au sein de l'entreprise consiste à assurer le bon fonctionnement du réseau et des systèmes informatiques. Mon quotidien s'articule autour de la maintenance des infrastructures réseau, garantissant leur fiabilité et leur sécurité, tout en répondant efficacement aux demandes des utilisateurs. Mon objectif est d'apporter des solutions techniques adaptées pour optimiser la performance et la disponibilité des systèmes, assurant ainsi une expérience utilisateur fluide et sans interruption. Je m'engage à transformer les défis informatiques en opportunités d'amélioration, tout en veillant à la continuité des activités de l'entreprise.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">CE QUE JE FAIS</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/admin_sys.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Administration de systèmes</h4>
+
+                <p class="service-item-text">
+                  Je gère une diversité de systèmes informatiques, veillant à leur fonctionnement optimal et à leur disponibilité continue.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/admin_reseau.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Administration de réseaux</h4>
+
+                <p class="service-item-text">
+                  Je supervise et entretiens une variété de réseaux informatiques pour assurer leur fonctionnement ininterrompu et efficace.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/infra_reseau.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mise en place d'une infrastructure réseau</h4>
+
+                <p class="service-item-text">
+                  Je conçois et déploie des infrastructures réseau, garantissant leur robustesse et leur adaptabilité pour un fonctionnement fluide et sans faille.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/cyber.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cybersécurité</h4>
+
+                <p class="service-item-text">
+                  Je garantie des mesures de cybersécurité robustes et professionnelles pour protéger les environnements numériques sur diverses plateformes.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <!-- <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul> -->
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <!-- <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CV
+      -->
+
+      <article class="cv" data-page="cv">
+
+        <header>
+          <h2 class="h2 article-title">CV</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Formations</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ESUP</h4>
+
+              <span>2022 — Maintenant</span>
+
+              <p class="timeline-text">
+                Je suis étudiant en BTS SIO option SISR à l'ESUP, spécialisé dans la gestion et la 
+                sécurité des systèmes d'information.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Jean-Paul II</h4>
+
+              <span>2021 — 2022</span>
+
+              <p class="timeline-text">
+                J'ai obtenu mon baccalauréat STMG au lycée Jean-Paul II, me concentrant sur les matières de gestion, 
+                de management et de sciences de gestion.
+              </p>
+
+            </li>
+
+            <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High school of art and design</h4>
+
+              <span>2002 — 2004</span>
+
+              <p class="timeline-text">
+                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
+                magni dolores
+                eos.
+              </p>
+
+            </li> -->
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Expériences</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Assistant Informatique</h4>
+
+              <span>2022 — Maintenant</span>
+
+              <p class="timeline-text justifie">
+                Je travaille chez Fran Frais en tant qu'assistant informatique, où je soutiens l'équipe informatique 
+                dans la gestion du parc informatique et le support aux utilisateurs. 
+                Je contribue également à des projets tels que la mise en place d'une baie 
+                informatique et le déploiement de la téléphonie IP.
+              </p>
+
+            </li>
+
+            <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Art director</h4>
+
+              <span>2013 — 2015</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li> -->
+
+            <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web designer</h4>
+
+              <span>2010 — 2013</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li> -->
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Mes compétences</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Administration systèmes</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Administration réseaux</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Installation & configuration de serveurs</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Cybersécurité</h5>
+                <data value="65">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programmation</h5>
+                <data value="40">40%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Base de données</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #E4
+      -->
+
+      <article class="e4" data-page="e4">
+
+        <header>
+          <h2 class="h2 article-title">E4</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Tout</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Missions</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Veilles technologiques</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Annexes</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Selectionner une catégorie</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>Tout</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Missions</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Veilles technologiques</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Annexes</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="annexes">
+              <a href="./assets/pdf/annexes_e4.pdf" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/annexes.jpg" alt="annexes e4" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Annexes E4</h3>
+
+                <p class="project-category">Annexes</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="missions">
+              <a href="./assets/pdf/Activite_1.pdf" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/support-aux-utilisateurs.jpg" alt="support aux utilisateurs" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">I - Support aux utilisateurs</h3>
+
+                <p class="project-category">Missions</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="missions">
+              <a href="./assets/pdf/Activite_2.pdf" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/documentation-technique.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">II - Documentation technique</h3>
+
+                <p class="project-category">Missions</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="missions">
+              <a href="./assets/pdf/Activite_3.pdf" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/installation-configuration-serveurs.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">III - Installation et configuration de serveurs</h3>
+
+                <p class="project-category">Missions</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="missions">
+              <a href="./assets/pdf/Activite_4.pdf" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/configuration-commutateurs-routeurs.jpg" alt="missions" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">IV - Configuration de routeurs et de commutateurs</h3>
+
+                <p class="project-category">Missions</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="missions">
+              <a href="./assets/pdf/Activite_5.pdf" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/proxmox.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">V - Mise en place de serveurs virtuels avec Proxmox</h3>
+
+                <p class="project-category">Missions</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="missions">
+              <a href="./assets/pdf/Activite_6.pdf" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/LAN_WAN.jpg" alt="mise en place de réseaux locaux (lan) et étendus (wan)" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">VI - Mise en place de réseaux locaux (LAN) et étendus (WAN)</h3>
+
+                <p class="project-category">Missions</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="missions">
+              <a href="./assets/pdf/Activite_7.pdf" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/monitoring-supervision.jpg" alt="monitoring et supervision" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">VII - Monitoring et supervision </h3>
+
+                <p class="project-category">Missions</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="veilles technologiques">
+              <a href="./assets/pdf/sujet_1.pdf" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/les-gpo.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sujet 1 - Les GPO</h3>
+
+                <p class="project-category">Veilles technologiques</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="veilles technologiques">
+              <a href="./assets/pdf/sujet_2.pdf" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/voip.jpg" alt="technologie voip" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sujet 2 - La technologie VoIP</h3>
+
+                <p class="project-category">Veilles technologiques</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #E5
+      -->
+
+      <article class="e5" data-page="e5">
+
+        <header>
+          <h2 class="h2 article-title">E5</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/infra-reseau.jpg" alt="situation 1" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Réseau</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-2024">2022-2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Situation 1 - Réseau & supervision</h3>
+
+                  <p class="blog-text justifie">
+                    Installation d'un réseau d'entreprise utilisant des VLAN pour segmenter les appareils (ordinateurs/serveurs), 
+                    complétée par la mise en place d'un système de routage permettant leur communication mutuelle. De plus, une solution 
+                    de monitoring nommée Uptime Kuma a été installée pour surveiller l'état du réseau et déterminer sa disponibilité.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/infra-sys.jpg" alt="situation 2" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Système</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-2024">2022 - 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Situation 2 - Serveurs, VM & LXC</h3>
+
+                  <p class="blog-text justifie">
+                    Déploiement d'un cluster Proxmox intégrant des machines virtuelles (VM) et des conteneurs Linux (LXC)
+                    visant à fournir des services informatiques, cela faisant suite à la configuration du réseau afin de 
+                    simuler une infrastructure systémique d'entreprise. Une solution de supervision Grafana a également 
+                    été ajoutée pour permettre le suivi en temps réel de l'utilisation des ressources, de l'espace disque 
+                    utilisé sur le serveur, ainsi que des spécifications techniques du serveur.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #ME CONTACTER
+      -->
+
+      <!-- <article class="annexes" data-page="me contacter">
+
+        <header>
+          <h2 class="h2 article-title">Me contacter</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2664.8289097663724!2d-1.6415947230906516!3d48.094243571238835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480edf119b6f0e99%3A0xce6c16b84dffe7f9!2s18%20Rue%20Louis%20P%C3%A9tri%2C%2035200%20Rennes!5e0!3m2!1sfr!2sfr!4v1711468854449!5m2!1sfr!2sfr"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Formulaire</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Louis BLANLEUIL" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="contact@exemple.com" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn onclick="sendMessage()">
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Envoyer le message</span>
+            </button>
+
+            <script>
+              function sendMessage() {
+                alert("Votre message a été envoyé avec succès.");
+              }
+            </script>
+            
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div> -->
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
